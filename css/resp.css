@@ -1,0 +1,31 @@
+
+@media(max-width:1024px){
+    .lorem{
+        position: absolute;
+        left: 64px;
+        top: 161px;
+    }
+}
+@media(max-width:744px){
+    .ul-item{
+        column-gap: 20px;
+    }
+    .lorem{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        
+    }
+}
+@media(max-width:375px){
+   .header-top nav{
+    display: none;
+   } 
+   .fa-solid.fa-bars{
+    display: block;
+   }
+   .lorem{
+    text-align: center;
+   }
+}
