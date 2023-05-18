@@ -5,6 +5,14 @@
         left: 64px;
         top: 161px;
     }
+    .wraper{
+        flex-direction: column;
+        row-gap: 91px ;
+    }
+    .div03{
+        flex-direction: row;
+        column-gap: 107px;
+    }
 }
 @media(max-width:744px){
     .ul-item{
@@ -17,6 +25,7 @@
         transform: translate(-50%, -50%);
         
     }
+
 }
 @media(max-width:375px){
    .header-top nav{
@@ -27,5 +36,16 @@
    }
    .lorem{
     text-align: center;
+   }
+   .long{
+    width: 90%;
+    row-gap: 15px;
+    margin: 60px auto 50px auto;
+   }
+   .div01,
+   .div02,
+   .div03{
+    flex-direction: column;
+    row-gap: 80px;
    }
 }
