@@ -127,3 +127,34 @@
     right: 14px;
     top: -7px;
 }
+
+/* 2ND Section */
+.wraper2{
+    max-width: 1197px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 120px;
+}
+.upper-div{
+    display: flex;
+    justify-content: space-between;
+}
+.text-div{
+    max-width: 523px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.add-div{
+    width: 160px;
+    height: 48px;
+    background-color: #F84646;
+    color: white;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 8px;
+}
