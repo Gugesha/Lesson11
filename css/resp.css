@@ -20,6 +20,10 @@
     .man{
         background-image: url('../images/white.jpg');
     }
+    .wraper3,
+    .copyright{
+        padding-left: 60.96px;
+    }
 }
 @media(max-width:744px){
     .ul-item{
@@ -39,7 +43,7 @@
         flex-direction: column;
     }
     .upper-div{
-        height: 793px;
+        height: auto;
     }
     .text-div{
         margin-top: 30px;
@@ -50,6 +54,12 @@
     }
     .add-div.more{
         height: 108px;
+    }
+    .wraper3{
+        flex-direction: column;
+        row-gap: 49px;
+        height: auto;
+        padding-bottom: 124px;
     }
 
 }
@@ -83,5 +93,12 @@
    .people,
    .man{
     height: 312px;
+   }
+   .logos{
+    display: none;
+   }
+   .wraper3,
+   .copyright{
+    padding-left: 20px;
    }
 }
